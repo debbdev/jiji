@@ -158,43 +158,12 @@ nav>ul li{
    background-color: white;
    text-align: center;
 }
-/*.sidebar{
-   grid-area: sidebar;
-   box-sizing: border-box;
-   padding: 20px 0;
-   background-color: #ffffff;
-   border: solid 1px #e6e6e6;
-   width: 200px;
-   position: fixed;
-   text-align: center;
-   align-items: center;
-   height: auto;
-   overflow-y: hidden;
-   overflow-x: hidden;
-   z-index: 1;
-   box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
-}*/
 .adimg{
    grid-area: adimg;
    width: 25vw;
    height: 30vh;
    margin: 0.5rem 10rem 1rem 0rem;
 }
-/*.product-container{
-   margin-top: 10px !important;
-   margin: 0 5rem 0 5rem;
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   grid-template-rows: auto;
-   column-gap: 5px;
-   justify-items: center;
-   grid-template-areas: 
-   'sidebar product product';
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   overflow-x: hidden;
-}*/
 .product-container{
    grid-area: product-container;
    display: flex;
