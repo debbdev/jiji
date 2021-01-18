@@ -10,41 +10,41 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
- <div class="top-container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
-      <a class="navbar-brand" href="#"><span><i class="fas fa-fire"></i></span> JiJiStore <span class="navbar-text"> Buy,Sell,Exchange
-      </span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item nav-sign active">
-            <a class="nav-link" href="#">Sign in<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item nav-reg">
-            <a class="nav-link" href="#">Registration</a>
-          </li>
-          <form class="nav-item">
-            <button class="btn btn-outline-success" type="submit">Sell</button>
-          </form>
-        </ul>
-      </div>
-    </nav>
-   <div class="hero">
-      <h4>Find Anything in  <span><button class="btn btn-outline-dark" type="submit"><i class="fas fa-map-marker-alt"></i> All in Nigeria</button></span></h4>
-       <form class="form-inline">
-        <div class="input-group">
-          <input type="text" class="form-control" size="100" placeholder="Type Search Here" required>
-       <div class="input-group-append input-group-btn">
-         <span><button type="submit" class="input-group-btn btn btn-search" name="button"><i class="fa fa-search"></i></button></span>
-       </div>
-      </div>
-      </form>
-   </div>
-    <nav class="navigation sidebar">
-        <ul class="main">
-          <li><a href="#" class="main-menu">Vehicles</a>
+  <div class="top-container"> <!--Top container begins-->
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3db83a;"><!--Navbar begins-->
+               <a class="navbar-brand" href="#"><span><i class="fas fa-fire"></i></span> JiJiStore </a><span class="navbar-text"> SELL FASTER, BUY SMARTER
+               </span>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item nav-sign active">
+                      <a id="signin" class="nav-link" href="#loginModal" data-toggle="modal" data-target="#loginModal">Sign in<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item nav-reg">
+                      <a class="nav-link" href="#registerModal" data-toggle="modal" data-target="#registerModal">Registration</a>
+                      </li>
+                      <form class="nav-item">
+                          <button class="btn btn-outline-success" type="submit">Sell</button>
+                      </form>
+                   </ul>
+               </div>
+            </nav><!--Navbar ends-->
+          <div class="hero"><!--Hero begins-->
+                <h4>Find Anything in  <span><button class="btn btn-outline-dark" type="submit"><i class="fas fa-map-marker-alt"></i> All in Nigeria</button></span></h4>
+                <form class="form-inline">
+                   <div class="input-group">
+                   <input type="text" class="form-control" size="100" placeholder="Type Search Here" required>
+                   <div class="input-group-append input-group-btn">
+                    <span><button type="submit" class="input-group-btn btn btn-search" name="button"><i class="fa fa-search"></i></button></span>
+                    </div>
+                   </div>
+                </form>
+           </div><!--Hero ends-->
+         <nav class="navigation sidebar"><!--Sidebar begins-->
+             <ul class="main">
+                 <li><a href="#" class="main-menu"><span><i class="fas fa-car faa"></i></span>  Vehicle<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
                 <li><a class="sub-menu-item" href="#">Cars</a></li>
                 <li><a class="" href="#">Buses & MicroBuses</a></li>
@@ -55,7 +55,7 @@
                 <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Property</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-home faa"></i></span>  Property<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
                 <li><a class="sub-menu-item" href="#">Houses & Apartments For Rent</a></li>
                 <li><a class="" href="#">Houses & Apartments For Sale</a></li>
@@ -67,7 +67,57 @@
                 <li><a class="sub-menu-item" href="#">Shortlet</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Mobile Phones & Tablets</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-mobile faa"></i></span><span>  Mobile Phones & Tablets</span><i class="fas fa-chevron-right fai"></i></a>
+            <ul class="sub-menu">
+                <li><a class="sub-menu-item" href="#">Mobile Phones</a></li>
+                <li><a class="" href="#">Accessories for Mobile Phones & Tablets</a></li>
+                <li><a class="" href="#">Smart Watches & Trackers</a></li>
+                <li><a class="" href="#">Tablets</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-laptop faa"></i></span>  Electronics<i class="fas fa-chevron-right fai"></i></a>
+            <ul class="sub-menu">
+                <li><a class="sub-menu-item" href="#">Accessories & Supplies for Electronics</a></li>
+                <li><a class="" href="#">Laptops & Computers</a></li>
+                <li><a class="" href="#">TV & DVD Equipment</a></li>
+                <li><a class="" href="#">Audio & Music Equipment</a></li>
+                <li><a class="" href="#">Computer Accessories</a></li>
+                <li><a class="sub-menu-item" href="#">Computer Hardware</a></li>
+                <li><a class="sub-menu-item" href="#">Networking Products</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-couch faa"></i></span>  Home,Furniture & Appliances<i class="fas fa-chevron-right fai"></i></a>
+            <ul class="sub-menu">
+                <li><a class="sub-menu-item" href="#">Furniture</a></li>
+                <li><a class="" href="#">Garden</a></li>
+                <li><a class="" href="#">Home Accessories</a></li>
+                <li><a class="" href="#">Home Appliances</a></li>
+                <li><a class="" href="#">Kitchen Appliances</a></li>
+                <li><a class="sub-menu-item" href="#">Kitchen Dinings</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-magic faa"></i></span>  Health & Beauty<i class="fas fa-chevron-right fai"></i></a>
+            <ul class="sub-menu">
+                <li><a class="sub-menu-item" href="#">Bath & Body</a></li>
+                <li><a class="" href="#">Fragrance</a></li>
+                <li><a class="" href="#">Hair Beauty</a></li>
+                <li><a class="" href="#">Make-up</a></li>
+                <li><a class="" href="#">Sexual Wellness</a></li>
+                <li><a class="sub-menu-item" href="#">Skincare</a></li>
+                <li><a class="sub-menu-item" href="#">Tobacco Accessories</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-tshirt faa"></i></span>  Fashion<i class="fas fa-chevron-right fai"></i></a>
+            <ul class="sub-menu">
+                <li><a class="sub-menu-item" href="#">Bags</a></li>
+                <li><a class="" href="#">Clothing</a></li>
+                <li><a class="" href="#">Clothing Accessories</a></li>
+                <li><a class="" href="#">Shoes</a></li>
+                <li><a class="" href="#">Watches</a></li>
+                <li><a class="sub-menu-item" href="#">Wedding Gear Accessories</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-handshake faa"></i></span>  Services<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
                 <li><a class="sub-menu-item" href="#">Cars</a></li>
                 <li><a class="" href="#">Buses & MicroBuses</a></li>
@@ -78,7 +128,7 @@
                 <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Electronics</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-briefcase faa"></i></span>  Jobs<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
                 <li><a class="sub-menu-item" href="#">Cars</a></li>
                 <li><a class="" href="#">Buses & MicroBuses</a></li>
@@ -89,7 +139,17 @@
                 <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Home, Furniture & Appliances</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-chess-board faa"></i></span>  Arts, Sports & Outdoors<i class="fas fa-chevron-right fai"></i></a>
+            <ul class="sub-menu">
+                <li><a class="sub-menu-item" href="#">Arts & Crafts</a></li>
+                <li><a class="" href="#">Books & Games</a></li>
+                <li><a class="" href="#">Camping Gears</a></li>
+                <li><a class="" href="#">CDs & DVDs</a></li>
+                <li><a class="" href="#">Musical Instrument & Gears</a></li>
+                <li><a class="sub-menu-item" href="#">Sports Equipment</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-wrench faa"></i></span>  Repair & Construction<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
                 <li><a class="sub-menu-item" href="#">Cars</a></li>
                 <li><a class="" href="#">Buses & MicroBuses</a></li>
@@ -100,7 +160,7 @@
                 <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Health & Beauty</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-home faa"></i></span>  Repair & Construction<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
                 <li><a class="sub-menu-item" href="#">Cars</a></li>
                 <li><a class="" href="#">Buses & MicroBuses</a></li>
@@ -111,7 +171,7 @@
                 <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Fashion</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-clipboard-check faa"></i></span>  Seeking Work & CVs<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
                 <li><a class="sub-menu-item" href="#">Cars</a></li>
                 <li><a class="" href="#">Buses & MicroBuses</a></li>
@@ -122,273 +182,323 @@
                 <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Services</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-bath faa"></i></span>  Babies & Kids<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
-                <li><a class="sub-menu-item" href="#">Cars</a></li>
-                <li><a class="" href="#">Buses & MicroBuses</a></li>
-                <li><a class="" href="#">Heavy Equipment</a></li>
-                <li><a class="" href="#">Trucks & Trailers</a></li>
-                <li><a class="" href="#">Vehicle Parts & Accessories</a></li>
-                <li><a class="sub-menu-item" href="#">Watercrafts & Boats</a></li>
-                <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
+                <li><a class="sub-menu-item" href="#">Babies & Kids Accessories</a></li>
+                <li><a class="" href="#">Baby & Child Care</a></li>
+                <li><a class="" href="#">Children's Clothing</a></li>
+                <li><a class="" href="#">Children's Furniture</a></li>
+                <li><a class="" href="#">Children's Gear & Safety</a></li>
+                <li><a class="sub-menu-item" href="#">Children's Shoes</a></li>
+                <li><a class="sub-menu-item" href="#">Maternity & Pregnancy</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Jobs</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-cat faa"></i></span>  Animals & Pets<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
-                <li><a class="sub-menu-item" href="#">Cars</a></li>
-                <li><a class="" href="#">Buses & MicroBuses</a></li>
-                <li><a class="" href="#">Heavy Equipment</a></li>
-                <li><a class="" href="#">Trucks & Trailers</a></li>
-                <li><a class="" href="#">Vehicle Parts & Accessories</a></li>
-                <li><a class="sub-menu-item" href="#">Watercrafts & Boats</a></li>
-                <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
+                <li><a class="sub-menu-item" href="#">Cats & Kittens</a></li>
+                <li><a class="" href="#">Birds</a></li>
+                <li><a class="" href="#">Dogs & Puppies</a></li>
+                <li><a class="" href="#">TFish</a></li>
+                <li><a class="" href="#">Pet Accessories</a></li>
+                <li><a class="sub-menu-item" href="#">Reptiles</a></li>
+                <li><a class="sub-menu-item" href="#">Other Animals</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Sports & Outdoors</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-apple-alt faa"></i></span>  Agriculture & Food<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
-                <li><a class="sub-menu-item" href="#">Cars</a></li>
-                <li><a class="" href="#">Buses & MicroBuses</a></li>
-                <li><a class="" href="#">Heavy Equipment</a></li>
-                <li><a class="" href="#">Trucks & Trailers</a></li>
-                <li><a class="" href="#">Vehicle Parts & Accessories</a></li>
-                <li><a class="sub-menu-item" href="#">Watercrafts & Boats</a></li>
-                <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
+                <li><a class="sub-menu-item" href="#">Farm Machinery & Equipment</a></li>
+                <li><a class="" href="#">Feeds, Supplements & Seeds</a></li>
+                <li><a class="" href="#">Livestock Poultry</a></li>
+                <li><a class="" href="#">Meals & Drinks</a></li>
             </ul>
           </li>
-          <li><a href="#" class="main-menu">Repair & Construction</a>
+          <li><a href="#" class="main-menu"><span><i class="fas fa-wrench faa"></i></span>  Commercial Equipment & Tools<i class="fas fa-chevron-right fai"></i></a>
             <ul class="sub-menu">
-                <li><a class="sub-menu-item" href="#">Cars</a></li>
-                <li><a class="" href="#">Buses & MicroBuses</a></li>
-                <li><a class="" href="#">Heavy Equipment</a></li>
-                <li><a class="" href="#">Trucks & Trailers</a></li>
-                <li><a class="" href="#">Vehicle Parts & Accessories</a></li>
-                <li><a class="sub-menu-item" href="#">Watercrafts & Boats</a></li>
-                <li><a class="sub-menu-item" href="#">Motorcycles & Scooters</a></li>
+                <li><a class="sub-menu-item" href="#">Industrial Ovens</a></li>
+                <li><a class="" href="#">Manufacturing Equipment</a></li>
+                <li><a class="" href="#">Medical Equipment</a></li>
+                <li><a class="" href="#">Manufacturing Materials</a></li>
+                <li><a class="" href="#">Printing Equipment</a></li>
+                <li><a class="sub-menu-item" href="#">Restuarant & Catering Equipment</a></li>
+                <li><a class="sub-menu-item" href="#">Safety Equipment</a></li>
             </ul>
           </li>
-    </nav>
-      <div class="carousel">
+    </nav><!--Sidebar ends-->
+    <div class="carousel"><!--Carousel begins-->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png" class="d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png" class="d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png" class="d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      </div>
-    </div>
-    <div class="container adimg row">
-    <div class="adbox">
-        <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png" class="adimg" alt="...">
-    </div>
-  </div>
-    <div class=" product-container row">
-        <div class="col-md-3 col-sm-6 center-responsive">
-          <div class="product box same-height same-height-row">
-              <a href="#">
+           <ol class="carousel-indicators">
+             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+           </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                   <h5>First slide label</h5>
+                   <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+             </div>
+             <div class="carousel-item">
+                <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                     <h5>Second slide label</h5>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                 </div>
+                </div>
+              <div class="carousel-item">
+                 <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png" class="d-block" alt="...">
+                 <div class="carousel-caption d-none d-md-block">
+                     <h5>Third slide label</h5>
+                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                   </div>
+                 </div>
+               </div>
+                   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Previous</span>
+                   </a>
+                   <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Next</span>
+                   </a>
+                 </div>
+      </div><!--Carousel ends-->
+    <div class="container adimg row"><!--adimg begins-->
+        <div class="adbox">
+            <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png" class="adimg" alt="...">
+         </div>
+     </div><!--adimg ends-->
+    <div class=" product-container row"><!--Product-container begins-->
+         <div class="col-md-3 col-sm-6 center-responsive">
+            <div class="product box same-height same-height-row">
+                <a href="#">
                   <img class="p-img img-responsive" src="https://source.unsplash.com/random/200x200" alt="product1">
                  </a>
                  <div class="text">
-                  <h3><a href="#">Slim shirt</a></h3>
-                  <p class="price">$80</p>
+                     <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                     <p class="price"><span>&#8358;</span>  80</p>
                  </div>
              </div> 
-           </div>
-           <div class="col-md-3 col-sm-6 center-responsive">
+          </div>
+          <div class="col-md-3 col-sm-6 center-responsive">
             <div class="product same-height">
                 <a href="#">
                     <img class="p-img img-responsive" src="https://source.unsplash.com/random/201x200" alt="product1">
                    </a>
                    <div class="text">
-                       <h3><a href="#">Slim shirt</a></h3>
-                       <p class="price">$80</p>
+                       <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                       <p class="price"><span>&#8358;</span>  80</p>
                    </div>
-               </div>
-             </div>
+              </div>
+          </div>
              <div class="col-md-3 col-sm-6 center-responsive">
               <div class="product same-height">
                   <a href="#">
                       <img class="p-img img-responsive" src="https://source.unsplash.com/random/202x200" alt="product1">
                      </a>
                      <div class="text">
-                         <h3><a href="#">Slim shirt</a></h3>
-                         <p class="price">$80</p>
+                         <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                         <p class="price"><span>&#8358;</span>  80</p>
                      </div>
-                 </div>
                </div>
-               <div class="col-md-3 col-sm-6 center-responsive">
+            </div>
+              <div class="col-md-3 col-sm-6 center-responsive">
                 <div class="product same-height">
-                    <a href="#">
-                        <img class="p-img img-responsive" src="https://source.unsplash.com/random/203x200" alt="product1">
+                       <a href="#">
+                         <img class="p-img img-responsive" src="https://source.unsplash.com/random/203x200" alt="product1">
                        </a>
                        <div class="text">
-                           <h3><a href="#">Slim shirt</a></h3>
-                           <p class="price">$80</p>
+                           <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                           <p class="price"><span>&#8358;</span>  80</p>
                        </div>
-                   </div>
-                 </div>
-                 <div class="col-md-3 col-sm-6 center-responsive">
+                  </div>
+              </div>
+               <div class="col-md-3 col-sm-6 center-responsive">
                   <div class="product same-height">
-                      <a href="#">
-                          <img class="p-img img-responsive" src="https://source.unsplash.com/random/204x200" alt="product1">
-                         </a>
-                         <div class="text">
-                             <h3><a href="#">Slim shirt</a></h3>
-                             <p class="price">$80</p>
-                         </div>
-                     </div>
-                   </div>
-                   <div class="col-md-3 col-sm-6 center-responsive">
-                    <div class="product same-height">
                         <a href="#">
-                            <img class="p-img img-responsive" src="https://source.unsplash.com/random/205x200" alt="product1">
+                          <img class="p-img img-responsive" src="https://source.unsplash.com/random/204x200" alt="product1">
+                        </a>
+                         <div class="text">
+                             <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                             <p class="price"><span>&#8358;</span>  80</p>
+                         </div>
+                    </div>
+               </div>
+                 <div class="col-md-3 col-sm-6 center-responsive">
+                    <div class="product same-height">
+                            <a href="http://localhost/m-dev-store/details.php">
+                              <img class="p-img img-responsive" src="https://source.unsplash.com/random/205x200" alt="product1">
                            </a>
                            <div class="text">
-                               <h3><a href="#">Slim shirt</a></h3>
-                               <p class="price">$80</p>
+                               <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                               <p class="price"><span>&#8358;</span>  80</p>
                            </div>
-                       </div>
-                     </div>
-                     <div class="col-md-3 col-sm-6 center-responsive">
+                    </div>
+                 </div>
+                   <div class="col-md-3 col-sm-6 center-responsive">
                       <div class="product same-height">
-                          <a href="#">
-                              <img class="p-img img-responsive" src="https://source.unsplash.com/random/206x200" alt="product1">
+                            <a href="http://localhost/m-dev-store/details.php">
+                               <img class="p-img img-responsive" src="https://source.unsplash.com/random/206x200" alt="product1">
                              </a>
                              <div class="text">
-                                 <h3><a href="#">Slim shirt</a></h3>
-                                 <p class="price">$80</p>
+                                 <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                                 <p class="price"><span>&#8358;</span>  80</p>
                              </div>
                          </div>
-                       </div>
-                       <div class="col-md-3 col-sm-6 center-responsive">
+                   </div>
+                     <div class="col-md-3 col-sm-6 center-responsive">
                         <div class="product same-height">
-                            <a href="#">
+                            <a href="http://localhost/m-dev-store/details.php">
                                 <img class="p-img img-responsive" src="https://source.unsplash.com/random/207x200" alt="product1">
                                </a>
                                <div class="text">
-                                   <h3><a href="#">Slim shirt</a></h3>
-                                   <p class="price">$80</p>
+                                   <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                                   <p class="price"><span>&#8358;</span>  80</p>
                                </div>
                            </div>
-                         </div>
-                         <div class="col-md-3 col-sm-6 center-responsive">
+                      </div>
+                       <div class="col-md-3 col-sm-6 center-responsive">
                           <div class="product same-height">
-                              <a href="#">
+                              <a href="http://localhost/m-dev-store/details.php">
                                   <img class="p-img img-responsive" src="https://source.unsplash.com/random/208x200" alt="product1">
                                  </a>
                                  <div class="text">
-                                     <h3><a href="#">Slim shirt</a></h3>
-                                     <p class="price">$80</p>
+                                     <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                                     <p class="price"><span>&#8358;</span>  80</p>
                                  </div>
                              </div>
-                           </div>
-                           <div class="col-md-3 col-sm-6 center-responsive">
+                        </div>
+                         <div class="col-md-3 col-sm-6 center-responsive">
                             <div class="product same-height">
-                                <a href="#">
+                                <a href="http://localhost/m-dev-store/details.php">
                                     <img class="p-img img-responsive" src="https://source.unsplash.com/random/209x200" alt="product1">
                                    </a>
                                    <div class="text">
-                                       <h3><a href="#">Slim shirt</a></h3>
-                                       <p class="price">$80</p>
+                                       <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                                       <p class="price"><span>&#8358;</span>  80</p>
                                    </div>
                                </div>
-                             </div>
+                          </div>
                              <div class="col-md-3 col-sm-6 center-responsive">
-                              <div class="product same-height">
-                                  <a href="#">
-                                      <img class="p-img img-responsive" src="https://source.unsplash.com/random/201x200" alt="product1">
+                               <div class="product same-height">
+                                      <a href="http://localhost/m-dev-store/details.php">
+                                        <img class="p-img img-responsive" src="https://source.unsplash.com/random/201x200" alt="product1">
                                      </a>
                                      <div class="text">
-                                         <h3><a href="#">Slim shirt</a></h3>
-                                         <p class="price">$80</p>
+                                         <p class="item"><a href="#">Lorem ipsum dolor sit</a></p>
+                                         <p class="price"><span>&#8358;</span>  80</p>
                                      </div>
-                                 </div>
+                                   </div>
                                </div>
-    </div>
-    </div>
-   <div id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="about">
-                <h4>About Us</h4>
-                <ul>
-                    <li><a href="#">About JijiStore</a></li>
-                    <li><a href="#">We Are Hiring</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Billing Policy</a></li>
-                </ul>
-            </div>
-            <div class="support">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="#">support@jijistore.ng</a></li>
-                    <li><a href="#">Safety Tips</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="apps">
-              <h4>Our Apps</h4>
-              <a href="#"><img class="download-app" src="images/app-store.png" alt="download-app"></a>
-          </div>
+                         </div>
+     </div><!--product-container ends-->
+   <div id="footer"><!--footer begins-->
+       <div class="container">
+          <div class="row">
+              <div class="about">
+                   <p>About Us</p>
+                       <ul>
+                         <li><a href="#">About JijiStore</a></li>
+                         <li><a href="#">We Are Hiring</a></li>
+                         <li><a href="#">Terms & Conditions</a></li>
+                         <li><a href="#">Privacy Policy</a></li>
+                         <li><a href="#">Billing Policy</a></li>
+                       </ul>
+                   </div>
+              <div class="support">
+                   <p>Support</p>
+                      <ul>
+                         <li><a href="#">support@jijistore.ng</a></li>
+                         <li><a href="#">Safety Tips</a></li>
+                         <li><a href="#">Contact Us</a></li>
+                         <li><a href="#">FAQ</a></li>
+                       </ul>
+                   </div>
+             <div class="apps">
+                   <p>Our Apps</p>
+                      <a href="#"><img class="download-app" src="images/app-store.png" alt="download-app"></a>
+               </div>
             <div class="resources">
-                <h4>Our Resources</h4>
-                <ul>
-                  <li><a href="#">Our Blog</a></li>
-                  <li><a href="#">JijiStore on FB</a></li>
-                  <li><a href="#">Our Instagram</a></li>
-                  <li><a href="#">Our Youtube</a></li>
-                  <li><a href="#">Our Twitter</a></li>
-              </ul>
-            </div>
+                   <p>Our Resources</p>
+                     <ul>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">JijiStore on FB</a></li>
+                        <li><a href="#">Our Instagram</a></li>
+                        <li><a href="#">Our Youtube</a></li>
+                        <li><a href="#">Our Twitter</a></li>
+                     </ul>
+                 </div>
             <div class="hot-links">
-                <h4>Hot Links</h4>
-                <ul>
-                  <li><a href="#">Brand</a></li>
-                  <li><a href="#">JijiStore Sellers</a></li>
-                  <li><a href="#">Regions</a></li>
-              </ul>
-            </div>
+                    <p>Hot Links</p>
+                       <ul>
+                         <li><a href="#">Brand</a></li>
+                         <li><a href="#">JijiStore Sellers</a></li>
+                         <li><a href="#">Regions</a></li>
+                       </ul>
+                 </div>
+           </div>
         </div>
+     </div><!--footer begins-->
+   <div id="copyright"><!--copyright begins-->
+     <div class="container">
+         <div class="col-12">
+            <p class="center">&copy; 2021 JijiStore </p>
+        </div>
+     </div>
+  </div><!--copyright ends-->
+</div><!--Top container ends-->
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-main">
+      <div class="modal-body">
+        <div class="form-title text-left margin-top-0 padding-top-0">
+          <p>Sign in</p>
+        </div>
+        <div class="d-flex flex-column text-center">
+            <button type="button" class="btn btn-inf btn-block btn-round google-btn"><span><i class="fab fa-google float-left text-align-center "></i></span>Sign in via Google</button>
+            <button type="button" class="btn btn-inf btn-block btn-round facebook-btn"><span><i class="fab fa-facebook-f float-left text-align-center"></i></span>Sign in via Facebook</button>
+          </div>
+        </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button type="button" class="btn btn-inf btn-block btn-round email-btn ">Sign in via e-mail or phone</button>
+        <div class="signup-section">Don't have an Account? <a href="#a" class="text-info"> Registration</a></div>
+      </div>
     </div>
-   </div>
-   <div id="copyright">
-    <div class="container">
-        <div class="col-12">
-        <p class="center">&copy; 2021 JijiStore </p>
-        </div>
+    </div>
   </div>
+</div>
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-main">
+      <div class="modal-body">
+        <div class="form-title text-left margin-top-0 padding-top-0">
+          <p>Register</p>
+        </div>
+        <div class="d-flex flex-column text-center">
+            <button type="button" class="btn btn-inf btn-block btn-round google-btn"><span><i class="fab fa-google float-left text-align-center "></i></span>Register via Google</button>
+            <button type="button" class="btn btn-inf btn-block btn-round facebook-btn"><span><i class="fab fa-facebook-f float-left text-align-center"></i></span>Register via Facebook</button>
+          </div>
+        </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button type="button" class="btn btn-inf btn-block btn-round email-btn">Register via e-mail or phone</button>
+        <div class="signup-section">Already have an Account? <a href="#" class="text-info"> Sign in</a></div>
+      </div>
+    </div>
+    </div>
   </div>
 </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -397,5 +507,6 @@
     crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script> 
+    <script src="signin.js"></script>
 </body>
 </html>
